@@ -41,7 +41,7 @@ app.use(function(err: any, req: Request, res: Response, next: NextFunction) {
 });
 
 app.listen(port, () => {
-  console.log('http://localhost:' + port + '/api' + '/fetchGptResponse');
+  console.log('http://localhost:' + port + '/api' + '/');
 });
 
 module.exports = app;
