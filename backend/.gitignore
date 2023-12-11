@@ -1,0 +1,27 @@
+# .gitignore
+
+# ログファイル
+*.log
+
+# ランタイムデータ
+/tmp
+/pids
+/log
+/cache
+
+# システムファイル
+.DS_Store
+
+# IDE設定
+.idea
+.vscode
+
+# ビルド結果
+/dist
+/build
+
+# node_modulesディレクトリ
+node_modules
+
+# .envファイル
+.env
